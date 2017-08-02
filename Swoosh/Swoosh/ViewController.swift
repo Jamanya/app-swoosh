@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var swooshLogo: UIImageView!
+    @IBOutlet weak var bgimg: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
